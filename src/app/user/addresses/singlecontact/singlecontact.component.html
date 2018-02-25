@@ -1,0 +1,6 @@
+<p *ngIf="contact">
+  <b>{{this.contact?.fullName}}</b> - {{this.contact?.email}}
+  <br />
+  <button (click)="this.editContact(this.contact)">Edit</button>
+  <button (click)="this.delete(this.contact._id)">Del</button>
+</p>

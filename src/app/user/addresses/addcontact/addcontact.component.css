@@ -1,0 +1,46 @@
+h2 {
+    display: inline-block;
+    margin: 4px 0;
+    padding: 0;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    color: gray;
+    background-color: white;
+}
+
+
+div {
+    display: inline-block;
+    border: none;
+    color: gray;
+    width: 280px;
+    height: 40px;
+    padding: 8px 4px;
+    margin: 2px 4px ;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: left;
+    border-top: 1px dotted gray;
+}
+
+button {
+    position: relative; 
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 4px 12px;
+    margin: 2px 0 12px 0;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+button:hover {
+    color: yellow;
+}

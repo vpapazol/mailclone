@@ -1,0 +1,24 @@
+<div>
+  <div class="list">
+      <div class="box">
+          <router-outlet name='boxes'></router-outlet>    
+      </div>
+      <div class="address">
+          <router-outlet name='addresses'></router-outlet>
+      </div>
+  </div>
+  <div class="details">
+      <div *ngIf='!bodyFlag && !addrFlag && !mailFlag' class="maillist">
+        <router-outlet name='letters'></router-outlet>
+      </div>
+      <div *ngIf='bodyFlag' class="body">
+          <router-outlet name='body'></router-outlet>
+      </div>
+      <div *ngIf='addrFlag' class="body">
+        <router-outlet name='addr'></router-outlet>
+      </div>
+      <div *ngIf='mailFlag' class="body">
+        <router-outlet name='mail'></router-outlet>
+      </div>
+  </div>
+</div>

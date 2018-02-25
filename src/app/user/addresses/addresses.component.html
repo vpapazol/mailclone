@@ -1,0 +1,9 @@
+<div>
+  <h1>addressbook</h1>
+  <div class="list" *ngFor="let curContact of contacts">
+    <app-singlecontact [contact]="curContact" (deleted)="this.onDelete($event)" (edited)="userComponent.onEditAddr($event)"></app-singlecontact>
+  </div>
+  <div>
+      <app-addcontact></app-addcontact>
+  </div>
+</div>

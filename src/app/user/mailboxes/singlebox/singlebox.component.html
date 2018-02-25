@@ -1,0 +1,6 @@
+<div [ngClass]="mailbox.class">
+  <p (click)="choose(mailbox)" [ngClass]="mailbox.class">
+  {{mailbox?.title}}
+  </p>
+  <button (click)="this.delete(mailbox)">Del</button>
+</div>

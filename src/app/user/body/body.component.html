@@ -1,0 +1,22 @@
+<h1>{{ this.userComponent.boxname }}</h1>
+<div>
+  <p class="button" (click)="this.onClick()">Close</p>
+  <div class="to">
+      <h2>To:</h2>
+      <span>
+        {{this.letter?.to}}
+      </span>
+  </div>
+  <div class="subject">
+      <h2>Subject:</h2>
+      <span>
+          {{this.letter?.subject}}
+      </span>
+  </div>
+  <div class="body">
+      <h2>Body:</h2>
+      <p>
+          {{this.letter?.body}}
+      </p>
+  </div>
+</div>

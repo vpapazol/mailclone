@@ -1,0 +1,11 @@
+<div>
+  <h2>New contact</h2>
+  <p>
+  Name: <input [formControl]="nameControl" type="text" size="24" maxlength="256">
+  </p>
+  <p>
+  Email: <input [formControl]="emailControl" type="text" size="24" maxlength="256">
+  </p>
+  <button (click)="this.addContact(nameControl.value, emailControl.value); nameControl.value = ''; emailControl.value = ''">Add contact</button>
+  <br /><br />
+</div>

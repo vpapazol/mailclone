@@ -1,0 +1,12 @@
+<h1>{{ userComponent.boxname }}</h1>
+
+<button *ngIf="userComponent.boxid" (click)="userComponent.onNewMail()">New mail</button>
+
+<div class="head action"> X </div>
+<div class="head to">To</div>
+<div class="head subject">Subject</div>
+<div class="head body">Body</div>
+
+<div class="list" *ngFor="let item of userComponent.mails">
+  <app-singlemail [mail]="item" (opened)="userComponent.onOpen($event)" (deleted)="onDelete(item)"></app-singlemail>
+</div>  

@@ -1,0 +1,17 @@
+<h1>Edit contact info</h1>
+<div>
+  <p class="button" (click)="this.onSave(this.nameControl.value, this.emailControl.value)">Save</p>
+  <p class="button" (click)="this.onCancel()">Cancel</p>
+  <div class="name">
+      <h2>Name:</h2>
+      <span>
+        <input [formControl]="nameControl" type="text" size="64" maxlength="256">
+      </span>
+  </div>
+  <div class="email">
+      <h2>E-mail:</h2>
+      <span>
+        <input [formControl]="emailControl" type="text" size="64" maxlength="256">
+      </span>
+  </div>
+</div>

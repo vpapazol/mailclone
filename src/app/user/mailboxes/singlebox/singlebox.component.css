@@ -1,0 +1,54 @@
+div {
+    display: inline-block;
+    border: 1px solid crimson;
+    color: crimson;
+    width: 280px;
+    height: 18px;
+    padding: 4px 4px 10px 10px;
+    margin: 2px 4px 4px 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+div:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+div.selected {
+    border: 1px solid forestgreen;
+    color: forestgreen;
+}
+
+p {
+    display: inline-block;
+    margin: 0 0 4px 0;
+    padding: 0 0 4px 0;
+    border: none;
+}
+
+p.selected {
+    color: forestgreen;
+}
+
+button {
+    float: right;
+    border: 1px solid crimson;
+    border-radius: 3px;
+    padding: 1px 2px;
+    margin: 4px 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+button:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}

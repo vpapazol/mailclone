@@ -1,0 +1,23 @@
+<h1>{{ this.userComponent.boxname }}</h1>
+<div>
+  <p class="button" (click)="this.onSave(this.userComponent.boxid, this.toControl.value, this.subjControl.value, this.bodyControl.value)">Save</p>
+  <p class="button" (click)="this.onCancel()">Cancel</p>
+  <div class="to">
+      <h2>To:</h2>
+      <span>
+        <input [formControl]="toControl" type="text" size="32" maxlength="256">
+      </span>
+  </div>
+  <div class="subject">
+      <h2>Subject:</h2>
+      <span>
+        <input [formControl]="subjControl" type="text" size="64" maxlength="256">
+      </span>
+  </div>
+  <div class="body">
+      <h2>Body:</h2>
+      <span>
+        <input [formControl]="bodyControl" type="text" size="100" maxlength="256">
+      </span>
+  </div>
+</div>

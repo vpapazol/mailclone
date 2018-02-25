@@ -1,0 +1,9 @@
+<div>
+  <p>Login, please</p>
+  <label>Username: </label><input #username type="text" size="24" maxlength="128">
+  <br /><br />
+  <label>Password : </label><input #password type="text" size="24" maxlength="128">
+  <br /><br />
+  <button class="login" (click)="doAuth()">Log in</button>
+  <button class="cancel" (click)="username.value =''; password.value=''">Cancel</button>
+</div>

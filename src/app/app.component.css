@@ -1,0 +1,18 @@
+div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 10px;
+    text-align:center;
+    width: 99%;
+    color: crimson;
+}
+
+.list {
+    width: 300px;
+    margin: 4px 0 0 0px;
+}
+
+.details {
+    width: 700px;
+    margin: 4px 0 0 4px;
+}

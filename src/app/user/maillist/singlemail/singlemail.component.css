@@ -1,0 +1,72 @@
+div {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.to {
+    padding: 4px 0;
+    width: 100px;
+    margin-bottom: 0;
+    border-right: 1px solid crimson;
+    cursor: pointer;
+}
+
+.to:hover {
+    border: 1px solid red;
+}
+
+
+.subject {
+    padding: 4px 0;
+    width: 240px;
+    min-width: 240px;
+    margin-bottom: 0;
+    border-right: 1px solid crimson;
+    cursor: pointer;
+}
+
+.subject:hover {
+    border: 1px solid red;
+}
+
+
+.body {
+    padding: 4px 0;
+    width: 370px;
+    min-width: 370px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.body:hover {
+    border: 1px solid red;
+}
+
+
+.action {
+    width: 16px;
+    min-width: 16px;
+    margin-bottom: 0;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    background: crimson;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.action:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}

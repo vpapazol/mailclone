@@ -1,0 +1,76 @@
+span {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.0em;
+    color: crimson;
+    cursor: pointer;
+}
+
+.details {
+    margin: 15px 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: crimson;
+}
+
+p {
+    display: inline-block;
+    color: crimson;
+    width: 260px;
+    height: 40px;
+    padding: 4px;
+    margin: 2px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.7em;
+    text-align: left;
+    border-bottom: 1px dotted crimson;
+}
+
+button {
+    position: relative; 
+    border: 1px solid crimson;
+    border-radius: 3px;
+    padding: 1px 8px;
+    margin: 4px 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+button:hover {
+    color: yellow;
+}
+ 
+.dropit {
+    display: inline-block;
+    border: 1px solid darkcyan;
+    background: darkcyan;
+    padding: 2px 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropitslc {
+    display: inline-block;
+    border: 1px solid crimson;
+    background: crimson;
+    padding: 2px 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.crimson {
+    border: 3px solid crimson;
+    color: crimson;
+}
+
+.darkcyan {
+    border: 3px solid darkcyan;
+    color: darkcyan;
+}

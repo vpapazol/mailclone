@@ -1,0 +1,9 @@
+<div>
+  <h1>mailboxes</h1>
+  <div class="list" *ngFor="let curBox of this.user.mailboxes">
+    <app-singlebox [mailbox]="curBox" (deleted)="this.user.onDelete($event)" (chosen)="this.user.onChoice($event)"></app-singlebox>
+  </div>
+  <div>
+    <app-addbox></app-addbox>
+  </div>
+</div>
