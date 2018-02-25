@@ -1,6 +1,12 @@
 # Mailclone
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+= = = = = = = = = = = = = = = = = = = = = = = 
+Демо:  http://musing-cray-0abffd.netlify.com
+= = = = = = = = = = = = = = = = = = = = = = = 
+Запускать только по HTTP (не https), так как бэкенд на http://test-api.javascript.ru/v1/vitsavinov/
+а то бэкенд работать не будет.
+
 Не успел сделать:
 = = = = = = = = = = =
 4. Поиск писем в почтовом ящике
